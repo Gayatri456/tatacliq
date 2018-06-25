@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="3" ignored="0" total="8" passed="5">
+  <reporter-output>
+    <line>
+      <![CDATA[Search results - Tata CLiQ]]>
+    </line>
+    <line>
+      <![CDATA[https://www.tatacliq.com/search/?searchCategory=all&text=games]]>
+    </line>
+    <line>
+      <![CDATA[T Shirts For Men | Buy T Shirts Online At Best Price In India At TATA CLiQ]]>
+    </line>
+    <line>
+      <![CDATA[https://www.tatacliq.com/mens-clothing-casual-wear-t-shirts-polos/c-msh1116100?&icid2=nav:regu:mnav:m1116100:mulb:bst:02:070618]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="776823" started-at="2018-06-25T11:33:51Z" finished-at="2018-06-25T11:46:48Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="776823" started-at="2018-06-25T11:33:51Z" finished-at="2018-06-25T11:46:48Z">
+      <class name="scripts.Search">
+        <test-method status="PASS" signature="openapp()[pri:0, instance:scripts.Search@2f943d71]" name="openapp" is-config="true" duration-ms="21081" started-at="2018-06-25T11:33:51Z" finished-at="2018-06-25T11:34:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openapp -->
+        <test-method status="PASS" signature="search()[pri:0, instance:scripts.Search@2f943d71]" name="search" duration-ms="124156" started-at="2018-06-25T11:34:12Z" finished-at="2018-06-25T11:36:16Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Search results - Tata CLiQ]]>
+            </line>
+            <line>
+              <![CDATA[https://www.tatacliq.com/search/?searchCategory=all&text=games]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method status="PASS" signature="closeapp()[pri:0, instance:scripts.Search@2f943d71]" name="closeapp" is-config="true" duration-ms="1353" started-at="2018-06-25T11:36:16Z" finished-at="2018-06-25T11:36:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeapp -->
+      </class> <!-- scripts.Search -->
+      <class name="scripts.Sorted">
+        <test-method status="PASS" signature="openapp()[pri:0, instance:scripts.Sorted@80503]" name="openapp" is-config="true" duration-ms="14915" started-at="2018-06-25T11:36:18Z" finished-at="2018-06-25T11:36:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openapp -->
+        <test-method status="PASS" signature="sort()[pri:0, instance:scripts.Sorted@80503]" name="sort" duration-ms="95786" started-at="2018-06-25T11:36:33Z" finished-at="2018-06-25T11:38:08Z">
+          <reporter-output>
+            <line>
+              <![CDATA[T Shirts For Men | Buy T Shirts Online At Best Price In India At TATA CLiQ]]>
+            </line>
+            <line>
+              <![CDATA[https://www.tatacliq.com/mens-clothing-casual-wear-t-shirts-polos/c-msh1116100?&icid2=nav:regu:mnav:m1116100:mulb:bst:02:070618]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- sort -->
+        <test-method status="PASS" signature="closeapp()[pri:0, instance:scripts.Sorted@80503]" name="closeapp" is-config="true" duration-ms="2200" started-at="2018-06-25T11:38:08Z" finished-at="2018-06-25T11:38:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeapp -->
+      </class> <!-- scripts.Sorted -->
+      <class name="scripts.Checkcode">
+        <test-method status="PASS" signature="openapp()[pri:0, instance:scripts.Checkcode@4b553d26]" name="openapp" is-config="true" duration-ms="23580" started-at="2018-06-25T11:38:11Z" finished-at="2018-06-25T11:38:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openapp -->
+        <test-method status="PASS" signature="checkcode()[pri:0, instance:scripts.Checkcode@4b553d26]" name="checkcode" duration-ms="117543" started-at="2018-06-25T11:38:34Z" finished-at="2018-06-25T11:40:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkcode -->
+        <test-method status="PASS" signature="closeapp()[pri:0, instance:scripts.Checkcode@4b553d26]" name="closeapp" is-config="true" duration-ms="1316" started-at="2018-06-25T11:40:32Z" finished-at="2018-06-25T11:40:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeapp -->
+      </class> <!-- scripts.Checkcode -->
+      <class name="scripts.Movetowishlist">
+        <test-method status="PASS" signature="openapp()[pri:0, instance:scripts.Movetowishlist@69a3d1d]" name="openapp" is-config="true" duration-ms="35131" started-at="2018-06-25T11:40:33Z" finished-at="2018-06-25T11:41:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openapp -->
+        <test-method status="FAIL" signature="wishlist()[pri:0, instance:scripts.Movetowishlist@69a3d1d]" name="wishlist" duration-ms="3134" started-at="2018-06-25T11:41:08Z" finished-at="2018-06-25T11:41:11Z">
+          <exception class="org.openqa.selenium.ElementNotInteractableException">
+            <message>
+              <![CDATA[Element <a id="socialLogin" class="headeruserdetails" href="/login"> could not be scrolled into view
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T15:15:08.936Z'
+System info: host: 'DESKTOP-593CNO1', ip: '192.168.163.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 8364, moz:profile: C:\Users\user\AppData\Local..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 27b430f6-fe6f-42fe-ac4c-e61b0d10d2dc]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementNotInteractableException: Element <a id="socialLogin" class="headeruserdetails" href="/login"> could not be scrolled into view
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T15:15:08.936Z'
+System info: host: 'DESKTOP-593CNO1', ip: '192.168.163.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 8364, moz:profile: C:\Users\user\AppData\Local..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 27b430f6-fe6f-42fe-ac4c-e61b0d10d2dc
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+at com.sun.proxy.$Proxy9.click(Unknown Source)
+at pom.Loginpage.signbutton(Loginpage.java:34)
+at scripts.Movetowishlist.wishlist(Movetowishlist.java:20)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wishlist -->
+        <test-method status="PASS" signature="closeapp()[pri:0, instance:scripts.Movetowishlist@69a3d1d]" name="closeapp" is-config="true" duration-ms="1700" started-at="2018-06-25T11:41:11Z" finished-at="2018-06-25T11:41:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeapp -->
+      </class> <!-- scripts.Movetowishlist -->
+      <class name="scripts.Loginlogout">
+        <test-method status="PASS" signature="openapp()[pri:0, instance:scripts.Loginlogout@86be70a]" name="openapp" is-config="true" duration-ms="32057" started-at="2018-06-25T11:41:13Z" finished-at="2018-06-25T11:41:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openapp -->
+        <test-method status="PASS" signature="loginout()[pri:0, instance:scripts.Loginlogout@86be70a]" name="loginout" duration-ms="61732" started-at="2018-06-25T11:41:45Z" finished-at="2018-06-25T11:42:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginout -->
+        <test-method status="PASS" signature="closeapp()[pri:0, instance:scripts.Loginlogout@86be70a]" name="closeapp" is-config="true" duration-ms="1798" started-at="2018-06-25T11:42:47Z" finished-at="2018-06-25T11:42:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeapp -->
+      </class> <!-- scripts.Loginlogout -->
+      <class name="scripts.Remove">
+        <test-method status="PASS" signature="openapp()[pri:0, instance:scripts.Remove@480bdb19]" name="openapp" is-config="true" duration-ms="14691" started-at="2018-06-25T11:42:49Z" finished-at="2018-06-25T11:43:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openapp -->
+        <test-method status="PASS" signature="remove()[pri:0, instance:scripts.Remove@480bdb19]" name="remove" duration-ms="72077" started-at="2018-06-25T11:43:03Z" finished-at="2018-06-25T11:44:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- remove -->
+        <test-method status="PASS" signature="closeapp()[pri:0, instance:scripts.Remove@480bdb19]" name="closeapp" is-config="true" duration-ms="1945" started-at="2018-06-25T11:44:15Z" finished-at="2018-06-25T11:44:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeapp -->
+      </class> <!-- scripts.Remove -->
+      <class name="scripts.Scroll">
+        <test-method status="PASS" signature="openapp()[pri:0, instance:scripts.Scroll@2a556333]" name="openapp" is-config="true" duration-ms="12374" started-at="2018-06-25T11:44:17Z" finished-at="2018-06-25T11:44:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openapp -->
+        <test-method status="FAIL" signature="scroll()[pri:0, instance:scripts.Scroll@2a556333]" name="scroll" duration-ms="49386" started-at="2018-06-25T11:44:30Z" finished-at="2018-06-25T11:45:19Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: (//img[@class='picZoomer-pic lazy'])[2]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T15:15:08.936Z'
+System info: host: 'DESKTOP-593CNO1', ip: '192.168.163.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 10580, moz:profile: C:\Users\user\AppData\Local..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 06101f6b-339d-48f3-9083-080b5899c17f
+*** Element info: {Using=xpath, value=(//img[@class='picZoomer-pic lazy'])[2]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: (//img[@class='picZoomer-pic lazy'])[2]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T15:15:08.936Z'
+System info: host: 'DESKTOP-593CNO1', ip: '192.168.163.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 10580, moz:profile: C:\Users\user\AppData\Local..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 06101f6b-339d-48f3-9083-080b5899c17f
+*** Element info: {Using=xpath, value=(//img[@class='picZoomer-pic lazy'])[2]}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:317)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:419)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:309)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy9.click(Unknown Source)
+at pom.Productlistpage.Prod(Productlistpage.java:38)
+at scripts.Scroll.scroll(Scroll.java:35)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scroll -->
+        <test-method status="PASS" signature="closeapp()[pri:0, instance:scripts.Scroll@2a556333]" name="closeapp" is-config="true" duration-ms="1684" started-at="2018-06-25T11:45:19Z" finished-at="2018-06-25T11:45:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeapp -->
+      </class> <!-- scripts.Scroll -->
+      <class name="scripts.Addtobag">
+        <test-method status="PASS" signature="openapp()[pri:0, instance:scripts.Addtobag@7d70d1b1]" name="openapp" is-config="true" duration-ms="21225" started-at="2018-06-25T11:45:21Z" finished-at="2018-06-25T11:45:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openapp -->
+        <test-method status="FAIL" signature="addtocart()[pri:0, instance:scripts.Addtobag@7d70d1b1]" name="addtocart" duration-ms="63859" started-at="2018-06-25T11:45:42Z" finished-at="2018-06-25T11:46:46Z">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Unable to locate element: //a[.='M']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T15:15:08.936Z'
+System info: host: 'DESKTOP-593CNO1', ip: '192.168.163.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 8024, moz:profile: C:\Users\user\AppData\Local..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 8005b20d-6508-4d58-b9cf-f97b5a6bccf7
+*** Element info: {Using=xpath, value=//a[.='M']}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Unable to locate element: //a[.='M']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T15:15:08.936Z'
+System info: host: 'DESKTOP-593CNO1', ip: '192.168.163.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_151'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 60.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 8024, moz:profile: C:\Users\user\AppData\Local..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 10.0, rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 8005b20d-6508-4d58-b9cf-f97b5a6bccf7
+*** Element info: {Using=xpath, value=//a[.='M']}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:317)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:419)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:309)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy9.click(Unknown Source)
+at pom.Addtocartpage.size(Addtocartpage.java:27)
+at scripts.Addtobag.addtocart(Addtobag.java:46)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addtocart -->
+        <test-method status="PASS" signature="closeapp()[pri:0, instance:scripts.Addtobag@7d70d1b1]" name="closeapp" is-config="true" duration-ms="2036" started-at="2018-06-25T11:46:46Z" finished-at="2018-06-25T11:46:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeapp -->
+      </class> <!-- scripts.Addtobag -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
